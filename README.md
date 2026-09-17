@@ -11,10 +11,10 @@ Finds genuine pricing regression in `pricing_diff.csv` (v1 old vs v2 new), exclu
 
 See `ANSWERS.md` for full Q1-Q5 answers with evidence.
 See `answers.json` for auto-check numbers.
-See `analyze.py` for reproduction (pandas only).
+See `analyze.py` for reproduction : pandas is used.
 
 ## Reproduce
 ```powershell
-# place pricing_diff.csv next to analyze.py (csv not submitted per spec)
+# place pricing_diff.csv next to analyze.py
 python analyze.py
 ```
